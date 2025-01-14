@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 25vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav {
+    height: 45%;
+    width: 100%;
+    padding: 0vw 2.3vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+nav .con1 {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo h1{
+    font-size: 1.7rem;
+}
+nav .dropdown button {
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+nav .con1 h5 {
+    font-weight: 400;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+nav .con2 {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+nav .con2 button {
+    padding: 7px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+}
+nav .con2 .log {
+    color: #0056fb;
+    background-color: #f5f8ff;
+
+    &:hover {
+        background-color: #cfd0d3;
+    }
+}
+nav .con2 .sign {
+    color: #f5f8ff;
+    background-color: #0056fb;
+
+    &:hover {
+        background-color: #064cce;
+    }
+}
+
+
+
+main {
+    height: 100%;
+    width: 100%;
+}
+.center {
+    height: 100%;
+    width: 98%;
+    margin: 0 auto;
+}
+.page {
+    height: 45vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+.contain {
+    height: 100%;
+    width: 100%;
+}
+.boxes {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.single_box {
+    height: 100%;
+}
+.inner_box {
+    height: 100%;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+}
+.inner_box .img {
+    height: 70%;
+    overflow: hidden;
+}
+.inner_box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.inner_box h6 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.inner_box h6 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.section {
+    height: 35vh;
+    width: 100%;
+    padding-top: 10vh;
+    text-align: center;
+    background-color: #000;
+}
+.section h3{
+    color: #fff;
+}
+.section button {
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    color: #f5f8ff;
+    background-color: #0056fb;
+
+    &:hover {
+        background-color: #064cce;
+    }
+}
+.section i {
+    color: #fff;
+}
