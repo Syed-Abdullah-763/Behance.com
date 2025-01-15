@@ -5,20 +5,20 @@
 }
 
 header {
-    height: 25vh;
+    height: 12vh;
     width: 100%;
     position: sticky;
     top: 0;
+    background-color: #fff;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 nav {
-    height: 45%;
+    height: 100%;
     width: 100%;
     padding: 0vw 2.3vw;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
-
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 nav .con1 {
     height: 100%;
@@ -87,7 +87,7 @@ main {
 }
 .center {
     height: 100%;
-    width: 98%;
+    width: 96%;
     margin: 0 auto;
 }
 .page {
@@ -139,10 +139,14 @@ main {
     width: 100%;
     padding-top: 10vh;
     text-align: center;
-    background-color: #000;
 }
-.section h3{
-    color: #fff;
+.section h5 {
+    font-weight: 400;
+}
+.section h5 span {
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .section button {
     padding: 10px 22px;
@@ -157,6 +161,119 @@ main {
         background-color: #064cce;
     }
 }
+.section h6 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0px 1vw;
+    color: #c0c0c2;
+}
 .section i {
+    color: #000;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 20px;
+    border: 1px solid #cfd0d3;
+
+    &:hover{
+        background-color: #cfd0d3;
+    }
+}
+
+main .hrLine {
+    height: 3px;
+    width: 100%;
+    margin: 2vw 0;
+    background: linear-gradient(90deg, rgba(143,143,216,1) 0%, rgba(254,90,47,1) 40%, rgba(251,199,209,1) 83%);
+}
+
+.bot {
+    height: 5vh;
+    width: 100%;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bot span {
+    color: #0056fb;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 1vw;
+}
+
+
+footer {
+    height: 90vh;
+    width: 100%;
+    background-color: #191919;
+}
+footer .center {
+    height: 100%;
+    width: 93%;
+    margin: 0px auto;
+}
+
+.footer {
+    height: 80%;
+    width: 100%;
+    padding: 10vh 0;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.footer ul {
+    margin-top: 4vh;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.footer li {
+    margin-bottom: 1.5vh;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.footer .bold {
+    font-weight: 800;
+    margin-bottom: 4vh;
+    cursor: auto;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+footer .hrLine {
+    height: 1px;
+    width: 100%;
+    margin-top: 6vh;
+    background-color: #c0c0c2;
+}
+.ft_bottom {
+    height: 10%;
+    width: 100%;
+    margin-top: 0.8vw;
+    padding: 0 2vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ft_bottom h5 {
+    font-size: 0.9rem;
+    margin-right: 4vw;
+    font-weight: 500;
+}
+.ft_bottom h6 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
