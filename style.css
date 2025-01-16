@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +13,7 @@ header {
 
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
+
 nav {
     height: 100%;
     width: 100%;
@@ -20,6 +21,7 @@ nav {
     display: flex;
     align-items: center;
 }
+
 nav .con1 {
     height: 100%;
     width: 45%;
@@ -27,9 +29,11 @@ nav .con1 {
     align-items: center;
     justify-content: space-between;
 }
-nav .logo h1{
+
+nav .logo h1 {
     font-size: 1.7rem;
 }
+
 nav .dropdown button {
     font-size: 1.2rem;
     font-weight: 400;
@@ -38,6 +42,7 @@ nav .dropdown button {
         text-decoration: underline;
     }
 }
+
 nav .con1 h5 {
     font-weight: 400;
 
@@ -55,6 +60,7 @@ nav .con2 {
     justify-content: end;
     gap: 10px;
 }
+
 nav .con2 button {
     padding: 7px 20px;
     font-weight: 700;
@@ -62,6 +68,7 @@ nav .con2 button {
     border: none;
     border-radius: 20px;
 }
+
 nav .con2 .log {
     color: #0056fb;
     background-color: #f5f8ff;
@@ -70,6 +77,7 @@ nav .con2 .log {
         background-color: #cfd0d3;
     }
 }
+
 nav .con2 .sign {
     color: #f5f8ff;
     background-color: #0056fb;
@@ -79,34 +87,44 @@ nav .con2 .sign {
     }
 }
 
+nav .nav_op {
+    display: none;
+}
+
 
 
 main {
     height: 100%;
     width: 100%;
 }
+
 .center {
     height: 100%;
     width: 96%;
     margin: 0 auto;
 }
+
 .page {
     height: 45vh;
     width: 100%;
     margin-top: 3vh;
 }
+
 .contain {
     height: 100%;
     width: 100%;
 }
+
 .boxes {
     height: 100%;
     width: 100%;
     background-color: #fff;
 }
+
 .single_box {
     height: 100%;
 }
+
 .inner_box {
     height: 100%;
 
@@ -114,20 +132,24 @@ main {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     }
 }
+
 .inner_box .img {
     height: 70%;
     overflow: hidden;
 }
+
 .inner_box img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
+
 .inner_box h6 {
     font-size: 1rem;
     font-weight: 600;
 }
+
 .inner_box h6 {
     font-size: 1rem;
     font-weight: 400;
@@ -140,14 +162,17 @@ main {
     padding-top: 10vh;
     text-align: center;
 }
+
 .section h5 {
     font-weight: 400;
 }
+
 .section h5 span {
     font-weight: 500;
     text-decoration: underline;
     cursor: pointer;
 }
+
 .section button {
     padding: 10px 22px;
     font-weight: 600;
@@ -161,12 +186,14 @@ main {
         background-color: #064cce;
     }
 }
+
 .section h6 {
     font-size: 1.2rem;
     font-weight: 400;
     margin: 0px 1vw;
     color: #c0c0c2;
 }
+
 .section i {
     color: #000;
     cursor: pointer;
@@ -174,7 +201,7 @@ main {
     border-radius: 20px;
     border: 1px solid #cfd0d3;
 
-    &:hover{
+    &:hover {
         background-color: #cfd0d3;
     }
 }
@@ -183,7 +210,7 @@ main .hrLine {
     height: 3px;
     width: 100%;
     margin: 2vw 0;
-    background: linear-gradient(90deg, rgba(143,143,216,1) 0%, rgba(254,90,47,1) 40%, rgba(251,199,209,1) 83%);
+    background: linear-gradient(90deg, rgba(143, 143, 216, 1) 0%, rgba(254, 90, 47, 1) 40%, rgba(251, 199, 209, 1) 83%);
 }
 
 .bot {
@@ -194,6 +221,7 @@ main .hrLine {
     align-items: center;
     justify-content: center;
 }
+
 .bot span {
     color: #0056fb;
     font-weight: 700;
@@ -202,11 +230,13 @@ main .hrLine {
 }
 
 
+
 footer {
     height: 90vh;
     width: 100%;
     background-color: #191919;
 }
+
 footer .center {
     height: 100%;
     width: 93%;
@@ -221,15 +251,18 @@ footer .center {
     display: flex;
     justify-content: space-between;
 }
+
 .footer h1 {
     font-size: 3.5rem;
     font-weight: 400;
 }
+
 .footer ul {
     margin-top: 4vh;
     list-style: none;
     font-size: 1.2rem;
 }
+
 .footer li {
     margin-bottom: 1.5vh;
     cursor: pointer;
@@ -238,6 +271,7 @@ footer .center {
         text-decoration: underline;
     }
 }
+
 .footer .bold {
     font-weight: 800;
     margin-bottom: 4vh;
@@ -247,12 +281,14 @@ footer .center {
         text-decoration: none;
     }
 }
+
 footer .hrLine {
     height: 1px;
     width: 100%;
     margin-top: 6vh;
     background-color: #c0c0c2;
 }
+
 .ft_bottom {
     height: 10%;
     width: 100%;
@@ -263,11 +299,13 @@ footer .hrLine {
     align-items: center;
     justify-content: space-between;
 }
+
 .ft_bottom h5 {
     font-size: 0.9rem;
     margin-right: 4vw;
     font-weight: 500;
 }
+
 .ft_bottom h6 {
     font-size: 0.9rem;
     font-weight: 400;
@@ -275,5 +313,320 @@ footer .hrLine {
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 2560px) {
+    nav .logo h1 {
+        font-size: 4.2rem;
+    }
+
+
+    nav .con2 {
+        gap: 40px;
+    }
+
+    nav .con2 button {
+        padding: 18px 40px;
+        font-weight: 500;
+        font-size: 25px;
+        border: none;
+        border-radius: 33px;
+    }
+
+    nav .dropdown button {
+        font-size: 2.5rem;
+        font-weight: 600;
+    
+    }
+    
+    nav .con1 h5 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    nav .con1 {
+        width: 55%;
+    }
+    nav .con2 {
+        width: 45%;
+    }
+
+
+    .section {
+        height: 25vh;
+        padding-top: 7vh;
+    }
+    
+    .section h5 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    .section h5 span {
+        font-weight: 700;
+    }
+    
+    .section button {
+        padding: 13px 30px;
+        font-size: 27px;
+        border-radius: 20px;
+    }
+    
+    .section h6 {
+        font-size: 1.8rem;
+    }
+    
+    .section i {
+        padding: 20px;
+        border-radius: 30px;
+        border: 1.5px solid #cfd0d3;
+    }
+
+
+    footer {
+        height: 70vh;
+    }
+
+    .footer {
+        height: 75%;
+    }
+    .footer h1 {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+
+    .footer ul {
+        font-size: 1.8rem;
+    }
+    
+    .footer li {
+        margin-bottom: 1.2vh;
+    }
+    
+    .footer .bold {
+        font-weight: 800;
+        margin-bottom: 3vh;
+    }
+    
+    .ft_bottom h5 {
+        font-size: 1.2rem;
+    }
+    
+    .ft_bottom h6 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    nav .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    nav .con2 button {
+        padding: 5px 15px;
+        font-weight: 500;
+        font-size: 13px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    nav .dropdown button {
+        font-size: 1rem;
+        font-weight: 400;
+    
+    }
+    
+    nav .con1 h5 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    nav .con1 {
+        width: 55%;
+    }
+    nav .con2 {
+        width: 45%;
+    }
+
+
+    .section {
+        height: 40vh;
+        padding-top: 8vh;
+    }
+    
+    .section h5 {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    .section h5 span {
+        font-weight: 500;
+    }
+    
+    .section button {
+        padding: 8px 15px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    
+    .section h6 {
+        font-size: 1.2rem;
+    }
+    
+    .section i {
+        padding: 7px;
+        border-radius: 20px;
+        border: 1px solid #cfd0d3;
+    }
+
+
+
+    .bot {
+        height: 10vh;
+        width: 90%;
+        margin-bottom: 1vw;
+        text-align: center;
+    }
+    .bot p {
+        font-size: 0.8rem;
+    }
+
+
+    footer {
+        height: 90vh;
+    }
+
+    .footer {
+        height: 75%;
+    }
+    .footer h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .footer ul {
+        font-size: 1.1rem;
+    }
+    
+    .footer li {
+        margin-bottom: 0.9vh;
+    }
+    
+    .footer .bold {
+        font-weight: 700;
+    }
+    
+    .ft_bottom h5 {
+        font-size: 0.9rem;
+    }
+    
+    .ft_bottom h6 {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width: 1020px) {
+    header {
+        height: 15vh;
+        width: 100%;
+    }
+
+    nav .logo h1 {
+        font-size: 1.4rem;
+    }
+
+    nav .block {
+        display: none;
+    }
+
+    nav .nav_op {
+        height: 100%;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 3vw;
+    }
+
+
+
+    .section h5 {
+        font-size: 0.9rem;
+    }
+    
+    
+    .section button {
+        padding: 5px 10px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    
+    .section h6 {
+        font-size: 1rem;
+    }
+    
+    .section i {
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+
+
+    .bot {
+        height: 12vh;
+        width: 90%;
+        margin-bottom: 1vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .bot p {
+        font-size: 0.8rem;
+    }
+
+
+    footer {
+        height: 90vh;
+    }
+
+    .footer {
+        height: 75%;
+    }
+    .footer h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .footer ul {
+        font-size: 1rem;
+    }
+    
+    .footer li {
+        margin-bottom: 0.7vh;
+    }
+    
+    .footer .bold {
+        font-weight: 600;
+    }
+    
+    .ft_bottom h5 {
+        font-size: 0.8rem;
+    }
+    
+    .ft_bottom h6 {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    nav .logo h1 {
+        font-size: 1.2rem;
     }
 }
